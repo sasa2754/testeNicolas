@@ -1,29 +1,27 @@
-
 {
     "name": "websocket",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "npx tsx watch index.ts",
-      "build": "npm install && tsc"
+    "dev": "npx tsx watch index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
     },
     "type": "module",
     "author": "",
     "license": "ISC",
     "description": "",
     "devDependencies": {
-      "@tsconfig/node22": "^22.0.0",
-      "@types/express": "^5.0.1",
-      "@types/node": "^22.13.10",
-      "@types/ws": "^8.18.0",
-      "tsx": "^4.19.3",
-      "typescript": "^5.8.2"
+        "@tsconfig/node22": "^22.0.0",
+        "@types/express": "^5.0.1",
+        "@types/node": "^22.13.10",
+        "@types/ws": "^8.18.0",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.3"
     },
     "dependencies": {
-      "express": "^4.21.2",
-      "tsc": "^2.0.4",
-      "ws": "^8.18.1"
+        "-": "^0.0.1",
+        "express": "^4.21.2",
+        "ws": "^8.18.1"
     }
-  }
-  
+}
